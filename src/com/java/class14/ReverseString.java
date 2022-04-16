@@ -12,6 +12,7 @@ public class ReverseString {
             newStr += str.charAt(i);
         }
         System.out.println(newStr);
+
     }
 
 
