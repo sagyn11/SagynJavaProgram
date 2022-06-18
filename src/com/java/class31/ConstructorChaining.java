@@ -14,7 +14,7 @@ class HSBCBank extends Bank{
 }
 
 
-public class ConstructorChanging {
+public class ConstructorChaining {
     public static void main(String[] args) {
         HSBCBank b = new HSBCBank();
     }

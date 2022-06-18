@@ -1,2 +1,4 @@
-package com.java.class30;public class BasicCalculator {
+package com.java.class30;
+
+public class BasicCalculator {
 }

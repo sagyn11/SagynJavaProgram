@@ -1,6 +1,4 @@
-package com.java.class23;
-
-import java.util.Scanner;
+package com.java.class22;
 
 public class practice {
     public static void main(String[] args) {

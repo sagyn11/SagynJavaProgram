@@ -1,4 +1,4 @@
-package homepractice;
+package homepractice.class17;
 
 import java.util.Scanner;
 

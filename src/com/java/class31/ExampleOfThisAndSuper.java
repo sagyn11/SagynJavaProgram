@@ -1,2 +1,31 @@
-package com.java.class31;public class ExampleOfThisAndSuperr {
+package com.java.class31;
+
+
+class GrandParent{
+    int a = 40;
+}
+
+class Parent1 extends GrandParent{
+    int a = 10;// instance variable
+
+    }
+
+
+class Child extends Parent1{
+    int a = 20; // instance variable
+
+    public void printData(){
+        int a = 50; //local variable
+        System.out.println(a);//50
+        System.out.println(this.a);//20
+        System.out.println(super.a);//10
+    }
+}
+
+
+public class ExampleOfThisAndSuper {
+    public static void main (String[] args){
+        Child c = new Child();
+        c.printData();
+    }
 }
